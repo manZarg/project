@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+}
+
+video {
+    width: 450px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.9;
+    margin: 10px 0;
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-family: Cambria,Georgia,serif;;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+/* navbar */
+
+.navbar {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    padding: 10px 0;
+    margin: 10px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid white;
+    opacity: 0.9;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 18px;
+}
+
+.line {
+    border: .5px solid white;
+}
+
+
+/* hero */
+.hero h1{
+    font-size: 2.5rem;
+}
+
+/* footer */
+.footer {
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(75, 55, 17);
+    padding: 10px;
+}
+
+.number, .email {
+    display: flex;
+}
+
+.icon {
+    height: 30px;
+    width: 35px;
+}
+
+.footer-bottom p{
+    margin-bottom: 0px;
+}
+
+.footer-bottom {
+    height: 80px;
+    padding-top: 25px;
+}
+
+.footer .flex {
+    flex-direction: column;
+}
+
+.footer .line {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+
+/* utility */
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button a{
+    color: white;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-sm{
+    font-size: small;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+/* resort section */
+
+.column-rs {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.column-rs img {
+    cursor: pointer; 
+    height: 175px;
+}
+
+.column-rs a:hover {
+    opacity: 0.5;
+}
+
+
+/* sd section */
+
+.column-sd {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column-sd img {
+    cursor: pointer; 
+    height: 300px;
+}
+
+.column-sd a:hover {
+    opacity: 0.5;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Falls */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
